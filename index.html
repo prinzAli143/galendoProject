@@ -148,44 +148,6 @@
       animation: scrollPulse 1.4s ease-in-out infinite;
     }
 
-    /* ── Stats strip ── */
-    .stats {
-      position: relative;
-      z-index: 1;
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 0;
-      border-top: 1px solid rgba(255,255,255,.06);
-      border-bottom: 1px solid rgba(255,255,255,.06);
-    }
-
-    .stat {
-      flex: 1 1 160px;
-      padding: 2.5rem 2rem;
-      text-align: center;
-      border-right: 1px solid rgba(255,255,255,.06);
-    }
-
-    .stat:last-child { border-right: none; }
-
-    .stat-num {
-      font-size: 2.8rem;
-      font-weight: 900;
-      line-height: 1;
-      background: linear-gradient(135deg, var(--orange), var(--yellow));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-    }
-
-    .stat-label {
-      margin-top: .4rem;
-      font-size: .75rem;
-      letter-spacing: .12em;
-      text-transform: uppercase;
-      color: var(--muted);
-    }
 
     /* ── Links section ── */
     .links-section {
@@ -332,25 +294,7 @@
     </div>
   </section>
 
-  <!-- ── STATS ── -->
-  <div class="stats">
-    <div class="stat">
-      <div class="stat-num">200+</div>
-      <div class="stat-label">Athletes Coached</div>
-    </div>
-    <div class="stat">
-      <div class="stat-num">8</div>
-      <div class="stat-label">Years of Experience</div>
-    </div>
-    <div class="stat">
-      <div class="stat-num">95%</div>
-      <div class="stat-label">Client Satisfaction</div>
-    </div>
-    <div class="stat">
-      <div class="stat-num">3</div>
-      <div class="stat-label">Pro Certifications</div>
-    </div>
-  </div>
+
 
   <!-- ── LINKS ── -->
   <section class="links-section" id="links">
