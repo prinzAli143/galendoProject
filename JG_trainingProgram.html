@@ -259,6 +259,11 @@
       animation: fadeUp .5s .4s ease both;
     }
 
+    .coming-soon-card .payhip-embed-page {
+      display: flex;
+      justify-content: center;
+    }
+
     .coming-soon-card::before {
       content: '';
       position: absolute;
@@ -374,7 +379,15 @@
   <!-- ── SECTIONS ── -->
   <div class="sections">
 
-    <!-- 1. Mass Gain -->
+    <!-- 1. Training eBook -->
+    <div class="coming-soon-card">
+      <span class="coming-soon-icon">📖</span>
+      <div class="coming-soon-title">Training eBook</div>
+      <div class="payhip-embed-page" data-key="R9moY"></div>
+      <script type="text/javascript" src="https://payhip.com/embed-page.js?v=24u68985"></script>
+    </div>
+
+    <!-- 2. Mass Gain -->
     <div class="section-card" onclick="toggle(this)">
       <div class="card-header">
         <div class="card-num">💪</div>
@@ -398,7 +411,7 @@
       </div>
     </div>
 
-    <!-- 2. Regularity -->
+    <!-- 3. Regularity -->
     <div class="section-card" onclick="toggle(this)">
       <div class="card-header">
         <div class="card-num">📅</div>
@@ -422,7 +435,7 @@
       </div>
     </div>
 
-    <!-- 3. Mental -->
+    <!-- 4. Mental -->
     <div class="section-card" onclick="toggle(this)">
       <div class="card-header">
         <div class="card-num">🧠</div>
@@ -444,18 +457,6 @@
           </div>
         </div>
       </div>
-    </div>
-
-    <!-- 4. eBook Coming Soon -->
-    <div class="coming-soon-card">
-      <div class="coming-soon-badge">⏳ Coming Soon</div>
-      <span class="coming-soon-icon">📖</span>
-      <div class="coming-soon-title">Training eBook</div>
-      <p class="coming-soon-desc">
-        The ultimate training book by Julien Galendo is on its way. Everything you need — workouts, nutrition, mindset — packed into one powerful guide.
-      </p>
-      <div class="payhip-embed-page" data-key="R9moY"></div>
-      <script type="text/javascript" src="https://payhip.com/embed-page.js?v=24u68985"></script>
     </div>
 
   </div>
